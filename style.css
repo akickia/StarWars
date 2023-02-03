@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ropa+Sans&display=swap');
+/* 
+font-family: 'Roboto', sans-serif;
+ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("header-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+  width: 440px;
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 69px;
+  letter-spacing: 0.15em;
+  color: #FFD600;
+  padding: 100px 0 100px 65px;
+}
+
+main {
+  background-color: #424242;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main .container {
+  margin: 3rem;
+  height: 703px;
+  width: 484px;
+  background-color: #E1E1E1;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .container h2 {
+  width: 100%;
+  font-family: 'Ropa Sans';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #FFD600;
+  padding: 20px 0;
+  background-color:  #535556;
+  border-radius: 10px 10px 0px 0px;
+}
+main .container ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+main .container ul li {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.15em;
+  background-color: #8E8E8E;
+  width: 100%;
+  padding: 14px 20px;
+  border: 0.5px solid grey
+}
+
+main .container p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #000000;
+  padding: 0.5rem
+}
+
+main .info-container h2 {
+  background-color: #748687;
+}
+
+main .info-container div {
+  width: 100%;
+  padding: 10px 25px;
+  height: 315px;
+  color: #000000
+}
+
+main .info-container div:nth-child(3) {
+  background-color: #8E8E8E;
+  color: #ffffff
+}
+
+main .info-container div h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.2em;
+  padding-bottom: 5px;
+}
+
+main .info-container ul li {
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  background-color: unset;
+  border: none;
+  color: #000000;
+  padding: 2.5px 0
+}
+
+main .info-container #home-info li {
+  color: #ffffff
+}
+
+main .char-container li:hover {
+  background-color: #C4C4C4;
+  color: #000000;
+}
+
+.prev  {
+  color: lightgray
+}
+
+.next, .prev {
+  padding: 0 1rem;
+  transition: all .5s ease;
+}
+
+img {
+  max-width: 90%;
+  max-height: 250px;
+  margin: 1rem auto;
+  background-color: transparent;
+}
